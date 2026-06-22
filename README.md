@@ -17,7 +17,7 @@
 ---
 
 ## 2. 디렉토리 구조 (Directory Structure)
-```text
+
 ├── code/               # 모델 학습 및 평가 핵심 소스코드
 ├── M2F2_Det/           # M2F2-Det 서브 모듈 및 실행 스크립트
 │   ├── asset/
