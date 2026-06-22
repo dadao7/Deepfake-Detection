@@ -1,0 +1,18 @@
+# 파이썬 캐시 파일 제외
+**/__pycache__/
+*.pyc
+
+# 대용량 데이터셋 및 가중치 폴더 제외
+data/
+M2F2_Det/dataset/
+M2F2_Det/checkpoints/
+weights/
+results/
+M2F2_Det/outputs/
+
+# 임시 파일 및 로컬 설정 제외
+tmp.py
+summary_results.txt
+*.bat
+.vscode/
+.DS_Store
