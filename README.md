@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# DeepFake Detection App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 소개
 
-## Get started
+DeepFake Detection App은 이미지 속 얼굴이 실제 이미지인지 딥페이크 이미지인지 분석하는 모바일 애플리케이션입니다. 단순히 REAL / FAKE 결과만 제공하는 것이 아니라 AI 탐지 결과의 판단 근거를 자연어로 설명하여 사용자가 결과를 쉽게 이해할 수 있도록 설계되었습니다.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 목적
 
-2. Start the app
+- 이미지의 딥페이크 여부를 탐지
+- REAL / FAKE 결과와 함께 탐지 확률 제공
+- AI 기반 자연어 설명을 통해 탐지 결과의 이해도 향상
+- 누구나 쉽고 직관적으로 사용할 수 있는 딥페이크 탐지 서비스 제공
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 주요 기능
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 이미지 업로드
+- 딥페이크 분석
+- REAL / FAKE 결과 제공
+- 탐지 확률 표시
+- AI 분석 설명 제공
+- 분석 리포트 확인 및 저장
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 실행 흐름
 
-When you're ready, run:
+1. Start
+2. Upload Image
+3. Analysis
+4. Result
+5. AI Report
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 사용 기술
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native
+- Expo
+- TypeScript
+- Expo Router
