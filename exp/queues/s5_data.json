@@ -1,0 +1,170 @@
+[
+ {
+  "setting": "P1",
+  "data": 25,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 25,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 25,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 25,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P1",
+  "data": 50,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 50,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 50,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 50,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P1",
+  "data": 25,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 25,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 25,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 25,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P1",
+  "data": 50,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 50,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 50,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 50,
+  "seed": 1,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P1",
+  "data": 25,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 25,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 25,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 25,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P1",
+  "data": 50,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P2",
+  "data": 50,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P3",
+  "data": 50,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ },
+ {
+  "setting": "P4a",
+  "data": 50,
+  "seed": 2,
+  "epochs": 20,
+  "kind": "main"
+ }
+]

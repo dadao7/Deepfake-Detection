@@ -1,0 +1,15 @@
+[gen val] 0/880부터, 프로세스 6
+[gen val] 880/880 0.1분
+[gen train] 0/56308부터, 프로세스 6
+[gen train] 5120/56308 0.2분
+[gen train] 10240/56308 0.3분
+[gen train] 15360/56308 0.4분
+[gen train] 20480/56308 0.5분
+[gen train] 25600/56308 0.5분
+[gen train] 30720/56308 0.6분
+[gen train] 35840/56308 0.8분
+[gen train] 40960/56308 0.9분
+[gen train] 46080/56308 1.0분
+[gen train] 51200/56308 1.0분
+[gen train] 56308/56308 1.1분
+SBI 캐시 gen 끝

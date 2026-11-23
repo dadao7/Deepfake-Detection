@@ -1,0 +1,12 @@
+ep 0 (초기) {'val_focal': 1.4436, 'val_ce_detail': 0.7501, 'val_total': 2.1937, 'val_detail_acc': 49.375, 'val_hm_auc': 58.8124, 'val_peak_hit_gt': 3.9773, 'val_boundary_at_peak': 0.1009, 'val_crop_hit': 100.0, 'center_boundary': 0.0, 'center_hit_gt': 0.0}
+ep 1 train focal 0.2251 ce 0.5468 | val total 0.7590 focal 0.2168 ce 0.5422 acc 71.8 hmAUC 77.9 peakhit 19.9 crophit 100.0 | 101s
+ep 2 train focal 0.2138 ce 0.4616 | val total 0.6619 focal 0.2124 ce 0.4496 acc 77.1 hmAUC 80.1 peakhit 20.3 crophit 100.0 | 107s
+ep 3 train focal 0.2118 ce 0.4293 | val total 0.6929 focal 0.2101 ce 0.4828 acc 76.5 hmAUC 81.2 peakhit 19.5 crophit 100.0 | 107s
+ep 4 train focal 0.2096 ce 0.4029 | val total 0.6549 focal 0.2087 ce 0.4462 acc 79.4 hmAUC 82.4 peakhit 21.8 crophit 100.0 | 106s
+ep 5 train focal 0.2067 ce 0.3783 | val total 0.6154 focal 0.2074 ce 0.4080 acc 80.0 hmAUC 82.4 peakhit 21.0 crophit 100.0 | 107s
+ep 6 train focal 0.2054 ce 0.3577 | val total 0.5996 focal 0.2072 ce 0.3924 acc 81.4 hmAUC 82.3 peakhit 22.6 crophit 100.0 | 107s
+ep 7 train focal 0.2051 ce 0.3335 | val total 0.6069 focal 0.2065 ce 0.4004 acc 81.4 hmAUC 83.4 peakhit 22.3 crophit 100.0 | 99s
+ep 8 train focal 0.2039 ce 0.3135 | val total 0.5972 focal 0.2062 ce 0.3910 acc 82.1 hmAUC 84.1 peakhit 21.8 crophit 100.0 | 104s
+ep 9 train focal 0.2022 ce 0.2970 | val total 0.6075 focal 0.2057 ce 0.4017 acc 82.1 hmAUC 84.1 peakhit 21.4 crophit 100.0 | 106s
+ep 10 train focal 0.2018 ce 0.2890 | val total 0.5850 focal 0.2055 ce 0.3795 acc 82.7 hmAUC 84.0 peakhit 20.9 crophit 100.0 | 107s
+끝: best epoch 10

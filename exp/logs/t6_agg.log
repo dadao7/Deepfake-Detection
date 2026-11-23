@@ -1,0 +1,45 @@
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+P0 0 완료
+P3 0 완료
+병합TV 0 완료
+P3 1 완료
+병합TV 1 완료
+P3 2 완료
+병합TV 2 완료
+# N4: 영상 점수 집계 방식 (자동 생성: code/t6_agg.py)
+
+기본(trimmed) 재현 확인: P3 seed 0 FF++ test 영상 점수 최대 차 0.00e+00. 선택 = FF++ val·DFD-val 평균 AUC(seed 평균). 모델마다 따로 고름.
+
+| 모델 | 집계 | 선택 점수 | fftest | cdf | fsh | dfdtest |
+|---|---|---|---|---|---|---|
+| P0 | trimmed | 83.94 | 95.22 | 76.15 | 68.01 | 70.78 |
+| P0 | mean | 83.69 | 95.13 | 76.44 | 68.64 | 70.83 |
+| P0 | median | 83.92 | 94.97 | 75.45 | 66.30 | 71.00 |
+| P0 | logit_mean | 84.28 | 95.07 | 76.30 | 67.46 | 71.28 |
+| P0 | top50 | 84.00 | 94.87 | 76.56 | 67.89 | 71.21 |
+| P0 | trim_logit | 84.23 | 95.05 | 75.97 | 67.03 | 71.19 |
+| **P0 선택** | **logit_mean** | | | | | |
+| P3 | trimmed | 84.00 | 95.29 | 76.24 | 68.82 | 70.40 |
+| P3 | mean | 83.76 | 95.21 | 76.56 | 69.41 | 70.49 |
+| P3 | median | 84.09 | 95.13 | 75.61 | 67.05 | 70.61 |
+| P3 | logit_mean | 84.36 | 95.16 | 76.40 | 68.15 | 70.98 |
+| P3 | top50 | 83.99 | 94.96 | 76.49 | 68.95 | 70.78 |
+| P3 | trim_logit | 84.32 | 95.14 | 76.09 | 67.71 | 70.85 |
+| **P3 선택** | **logit_mean** | | | | | |
+| 병합TV | trimmed | 85.58 | 95.13 | 78.84 | 72.94 | 75.65 |
+| 병합TV | mean | 85.55 | 95.12 | 79.69 | 73.62 | 75.60 |
+| 병합TV | median | 85.56 | 95.01 | 77.85 | 71.90 | 75.61 |
+| 병합TV | logit_mean | 85.88 | 95.03 | 78.97 | 72.54 | 75.88 |
+| 병합TV | top50 | 85.51 | 94.75 | 80.18 | 73.65 | 76.22 |
+| 병합TV | trim_logit | 85.82 | 95.05 | 78.45 | 72.36 | 75.86 |
+| **병합TV 선택** | **logit_mean** | | | | | |
+
+## 고른 집계로 비교 (P3도 자기 선택 집계 사용)
+
+| 비교 | fftest | cdf | fsh | dfdtest |
+|---|---|---|---|---|
+| 병합TV(logit_mean) − P3(logit_mean) | -0.13 [-0.85, +0.59] | +2.57 [+0.24, +5.03] ✔ | +4.39 [+2.34, +6.60] ✔ | +4.89 [+3.56, +6.34] ✔ |
+| P3(logit_mean) − P0(logit_mean) | +0.09 [-0.09, +0.31] | +0.11 [-0.43, +0.56] | +0.69 [+0.13, +1.30] ✔ | -0.30 [-0.62, +0.03] |
+| P3: logit_mean − trimmed | -0.12 [-0.36, +0.09] | +0.16 [-0.23, +0.60] | -0.67 [-1.39, +0.05] | +0.59 [+0.16, +1.02] ✔ |
+| 병합TV: logit_mean − trimmed | -0.10 [-0.30, +0.06] | +0.13 [-0.20, +0.48] | -0.40 [-0.97, +0.16] | +0.23 [-0.07, +0.59] |

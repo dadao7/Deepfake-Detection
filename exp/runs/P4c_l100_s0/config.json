@@ -1,0 +1,37 @@
+{
+ "run_id": "P4c_l100_s0",
+ "kind": "anchor",
+ "setting": "P4c_l100",
+ "base_cfg": {
+  "crop": 64,
+  "min_distance": 2,
+  "map": "heatmap",
+  "k": 3,
+  "agg": "weighted",
+  "alpha": "dynamic",
+  "m4": true,
+  "detach": false,
+  "init": "sbi",
+  "setting": "P4a"
+ },
+ "lam": 100.0,
+ "anchor": "λ·mean((σ(hm)−σ(seg_hm))²), seg head = runs/sbi_pretrain/seg_head.pt (고정)",
+ "seed": 0,
+ "epochs": 20,
+ "init_msg": "sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>)",
+ "code_sha": "c31b66f7ade0",
+ "cfg_sha": "78c1deddd87c",
+ "started": "2026-10-17 04:17:45",
+ "versions": {
+  "python": "3.11.15",
+  "torch": "2.12.0+cu130",
+  "torchvision": "0.27.0+cu130",
+  "transformers": "5.9.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.8.0",
+  "h5py": "3.16.0",
+  "cuda": "13.0",
+  "cudnn": 92000,
+  "gpu": "NVIDIA GeForce RTX 5080"
+ }
+}

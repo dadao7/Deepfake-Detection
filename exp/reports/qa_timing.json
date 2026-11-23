@@ -1,0 +1,31 @@
+{
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "params_baseline_M": 451.018639,
+ "params_branch_M": 7.636724,
+ "bs1": {
+  "P0": {
+   "ms_per_batch": 55.240986328125,
+   "ms_per_frame": 55.240986328125,
+   "peak_mem_MB": 1866.06396484375
+  },
+  "최종(P3 구조)": {
+   "ms_per_batch": 77.0511767578125,
+   "ms_per_frame": 77.0511767578125,
+   "peak_mem_MB": 1866.06396484375
+  },
+  "overhead_pct": 39.48189900183448
+ },
+ "bs32": {
+  "P0": {
+   "ms_per_batch": 301.39626953125,
+   "ms_per_frame": 9.418633422851563,
+   "peak_mem_MB": 4169.46240234375
+  },
+  "최종(P3 구조)": {
+   "ms_per_batch": 311.67345703125,
+   "ms_per_frame": 9.739795532226562,
+   "peak_mem_MB": 4168.77099609375
+  },
+  "overhead_pct": 3.4098588930724594
+ }
+}

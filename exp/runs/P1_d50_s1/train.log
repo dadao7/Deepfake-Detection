@@ -1,0 +1,22 @@
+[P1_d50_s1] detail: ImageNet DenseNet121 + 무작위 head | 학습 파라미터 7,479,682 | epoch 1→20
+[P1_d50_s1] ep  1 lr 5.00e-05 | train loss 0.2297 acc 97.43 auc 99.68 | val bal 0.3921 raw 0.2971 aucF 91.92 aucV 94.96 bacc 82.18 | 26s
+[P1_d50_s1] ep  2 lr 4.97e-05 | train loss 0.2242 acc 97.33 auc 99.69 | val bal 0.3893 raw 0.3070 aucF 91.79 aucV 94.79 bacc 82.60 | 24s
+[P1_d50_s1] ep  3 lr 4.88e-05 | train loss 0.2214 acc 97.28 auc 99.65 | val bal 0.4057 raw 0.2934 aucF 91.83 aucV 95.06 bacc 82.08 | 24s
+[P1_d50_s1] ep  4 lr 4.73e-05 | train loss 0.2204 acc 96.97 auc 99.67 | val bal 0.4107 raw 0.2979 aucF 91.66 aucV 94.90 bacc 81.69 | 25s
+[P1_d50_s1] ep  5 lr 4.53e-05 | train loss 0.2131 acc 97.44 auc 99.71 | val bal 0.4043 raw 0.2960 aucF 91.81 aucV 95.06 bacc 81.71 | 24s
+[P1_d50_s1] ep  6 lr 4.28e-05 | train loss 0.2099 acc 97.47 auc 99.70 | val bal 0.3939 raw 0.3048 aucF 91.82 aucV 94.93 bacc 82.12 | 24s
+[P1_d50_s1] ep  7 lr 3.99e-05 | train loss 0.2082 acc 97.40 auc 99.69 | val bal 0.4088 raw 0.3147 aucF 91.32 aucV 94.82 bacc 81.85 | 24s
+[P1_d50_s1] ep  8 lr 3.66e-05 | train loss 0.2013 acc 97.67 auc 99.77 | val bal 0.4211 raw 0.2973 aucF 91.55 aucV 94.92 bacc 81.35 | 26s
+[P1_d50_s1] ep  9 lr 3.31e-05 | train loss 0.1935 acc 97.81 auc 99.78 | val bal 0.4074 raw 0.3116 aucF 91.45 aucV 94.88 bacc 82.20 | 27s
+[P1_d50_s1] ep 10 lr 2.93e-05 | train loss 0.1834 acc 98.04 auc 99.84 | val bal 0.4309 raw 0.3102 aucF 91.14 aucV 94.80 bacc 81.21 | 25s
+[P1_d50_s1] ep 11 lr 2.55e-05 | train loss 0.1842 acc 97.88 auc 99.79 | val bal 0.4376 raw 0.3128 aucF 90.99 aucV 94.72 bacc 80.80 | 22s
+[P1_d50_s1] ep 12 lr 2.17e-05 | train loss 0.1725 acc 97.99 auc 99.86 | val bal 0.4725 raw 0.3164 aucF 90.56 aucV 94.57 bacc 80.22 | 24s
+[P1_d50_s1] ep 13 lr 1.79e-05 | train loss 0.1599 acc 98.65 auc 99.90 | val bal 0.4679 raw 0.3115 aucF 90.79 aucV 94.85 bacc 80.02 | 23s
+[P1_d50_s1] ep 14 lr 1.44e-05 | train loss 0.1552 acc 98.46 auc 99.88 | val bal 0.4825 raw 0.3205 aucF 90.44 aucV 94.76 bacc 79.51 | 23s
+[P1_d50_s1] ep 15 lr 1.11e-05 | train loss 0.1532 acc 98.32 auc 99.88 | val bal 0.4749 raw 0.3311 aucF 90.24 aucV 94.53 bacc 79.97 | 24s
+[P1_d50_s1] ep 16 lr 8.18e-06 | train loss 0.1448 acc 98.61 auc 99.92 | val bal 0.4843 raw 0.3298 aucF 90.23 aucV 94.71 bacc 79.81 | 23s
+[P1_d50_s1] ep 17 lr 5.68e-06 | train loss 0.1366 acc 98.86 auc 99.93 | val bal 0.5211 raw 0.3272 aucF 90.05 aucV 94.78 bacc 78.58 | 23s
+[P1_d50_s1] ep 18 lr 3.67e-06 | train loss 0.1325 acc 98.65 auc 99.93 | val bal 0.5077 raw 0.3304 aucF 90.04 aucV 94.72 bacc 79.44 | 24s
+[P1_d50_s1] ep 19 lr 2.20e-06 | train loss 0.1340 acc 98.50 auc 99.93 | val bal 0.4968 raw 0.3336 aucF 90.05 aucV 94.66 bacc 79.30 | 23s
+[P1_d50_s1] ep 20 lr 1.30e-06 | train loss 0.1334 acc 98.64 auc 99.94 | val bal 0.5266 raw 0.3289 aucF 89.98 aucV 94.79 bacc 78.18 | 24s
+[P1_d50_s1] 완료 8.1분 | best ep 2: FF++ AUC 94.93 CDF 76.04 | last: FF++ 94.06 CDF 71.82

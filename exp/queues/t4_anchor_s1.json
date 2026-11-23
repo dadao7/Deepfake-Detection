@@ -1,0 +1,8 @@
+[
+ {
+  "script": "run_train_anchor.py",
+  "lam": 100.0,
+  "seed": 1,
+  "epochs": 20
+ }
+]

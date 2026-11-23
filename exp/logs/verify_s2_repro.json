@@ -1,0 +1,9 @@
+{
+ "gate4_params_total": 742,
+ "gate4_params_not_equal": 0,
+ "gate4_first_not_equal": [],
+ "gate4_max_absdiff": 0.0,
+ "gate4_curves_equal": false,
+ "gate4_log_tail_a": "[debug_repro_a] sbi1: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | 학습 파라미터 7,636,724 | epoch 1→2\n[debug_repro_a] ep  1 lr 5.00e-05 | train loss 0.2891 acc 96.56 auc 99.47 | val bal 0.5103 raw 0.2816 aucF 91.80 aucV 94.77 bacc 77.88 | 5s\n[debug_repro_a] ep  2 lr 2.55e-05 | train loss 0.2138 acc 98.28 auc 99.85 | val bal 0.5000 raw 0.2791 aucF 91.99 aucV 94.97 bacc 78.45 | 3s\n[debug_repro_a] 테스트 생략(디버그), 0.1분\n",
+ "gate4_curves_equal_excluding_sec": true
+}

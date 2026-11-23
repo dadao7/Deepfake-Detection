@@ -1,0 +1,22 @@
+[U0m_s0] 혼합 학습 | baseline 상단 10.34M 로드 | epoch 1→20
+[U0m_s0] ep  1 | train 0.3578 | FFval bal 0.4857 aucV 95.20 | SBIval bal 0.7231 auc 75.39 | 27s
+[U0m_s0] ep  2 | train 0.3265 | FFval bal 0.4969 aucV 95.08 | SBIval bal 0.7221 auc 76.90 | 25s
+[U0m_s0] ep  3 | train 0.3192 | FFval bal 0.6197 aucV 94.91 | SBIval bal 0.7723 auc 77.31 | 27s
+[U0m_s0] ep  4 | train 0.3106 | FFval bal 0.5602 aucV 94.98 | SBIval bal 0.7047 auc 79.80 | 25s
+[U0m_s0] ep  5 | train 0.2963 | FFval bal 0.6197 aucV 94.99 | SBIval bal 0.7309 auc 80.37 | 25s
+[U0m_s0] ep  6 | train 0.2847 | FFval bal 0.5345 aucV 94.99 | SBIval bal 0.6410 auc 82.06 | 24s
+[U0m_s0] ep  7 | train 0.2755 | FFval bal 0.5881 aucV 94.95 | SBIval bal 0.6811 auc 82.03 | 24s
+[U0m_s0] ep  8 | train 0.2721 | FFval bal 0.6572 aucV 95.12 | SBIval bal 0.7265 auc 83.08 | 24s
+[U0m_s0] ep  9 | train 0.2632 | FFval bal 0.5729 aucV 95.05 | SBIval bal 0.6451 auc 84.02 | 27s
+[U0m_s0] ep 10 | train 0.2543 | FFval bal 0.5838 aucV 94.91 | SBIval bal 0.6246 auc 84.25 | 25s
+[U0m_s0] ep 11 | train 0.2552 | FFval bal 0.5756 aucV 95.00 | SBIval bal 0.6517 auc 84.59 | 24s
+[U0m_s0] ep 12 | train 0.2555 | FFval bal 0.5969 aucV 95.01 | SBIval bal 0.6604 auc 84.55 | 24s
+[U0m_s0] ep 13 | train 0.2434 | FFval bal 0.6175 aucV 94.90 | SBIval bal 0.6761 auc 84.87 | 23s
+[U0m_s0] ep 14 | train 0.2431 | FFval bal 0.6225 aucV 94.84 | SBIval bal 0.6583 auc 84.94 | 25s
+[U0m_s0] ep 15 | train 0.2459 | FFval bal 0.6197 aucV 94.87 | SBIval bal 0.6496 auc 84.68 | 25s
+[U0m_s0] ep 16 | train 0.2370 | FFval bal 0.6641 aucV 94.91 | SBIval bal 0.6961 auc 84.81 | 25s
+[U0m_s0] ep 17 | train 0.2397 | FFval bal 0.6125 aucV 94.91 | SBIval bal 0.6451 auc 85.18 | 25s
+[U0m_s0] ep 18 | train 0.2369 | FFval bal 0.6153 aucV 94.89 | SBIval bal 0.6438 auc 85.28 | 25s
+[U0m_s0] ep 19 | train 0.2458 | FFval bal 0.6231 aucV 94.91 | SBIval bal 0.6527 auc 85.28 | 23s
+[U0m_s0] ep 20 | train 0.2470 | FFval bal 0.6272 aucV 94.92 | SBIval bal 0.6567 auc 85.29 | 25s
+[U0m_s0] 완료 8.5분 | best ep 6: FF++ 95.33 CDF 77.72 | last: FF++ 95.52 CDF 72.71

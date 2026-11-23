@@ -1,0 +1,29 @@
+{
+ "best_epoch": 10,
+ "best_val_total": 0.5849845456354545,
+ "best_val": {
+  "val_focal": 0.20547309897162697,
+  "val_ce_detail": 0.37951144666382763,
+  "val_total": 0.5849845456354545,
+  "val_detail_acc": 82.70833333333333,
+  "val_hm_auc": 83.98631198347107,
+  "val_peak_hit_gt": 20.90909034013748,
+  "val_boundary_at_peak": 0.30392998456954956,
+  "val_crop_hit": 100.0,
+  "center_boundary": 0.0,
+  "center_hit_gt": 0.0
+ },
+ "init_val": {
+  "val_focal": 1.4435502940958196,
+  "val_ce_detail": 0.7501477241516114,
+  "val_total": 2.193698018247431,
+  "val_detail_acc": 49.375,
+  "val_hm_auc": 58.81237086776859,
+  "val_peak_hit_gt": 3.9772726595401764,
+  "val_boundary_at_peak": 0.1008947491645813,
+  "val_crop_hit": 100.0,
+  "center_boundary": 0.0,
+  "center_hit_gt": 0.0
+ },
+ "finished": "2026-10-15 04:25:05"
+}

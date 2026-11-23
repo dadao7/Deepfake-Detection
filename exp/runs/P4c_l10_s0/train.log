@@ -1,0 +1,22 @@
+[P4c_l10_s0] anchor λ=10.0 | sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>)
+[P4c_l10_s0] ep  1 | train 0.1610 anchor 0.00059 | FFval bal 0.4661 aucV 93.85 | DFDval aucV 70.45 | 99s
+[P4c_l10_s0] ep  2 | train 0.1204 anchor 0.00084 | FFval bal 0.5735 aucV 94.22 | DFDval aucV 70.68 | 100s
+[P4c_l10_s0] ep  3 | train 0.1121 anchor 0.00084 | FFval bal 0.5302 aucV 94.31 | DFDval aucV 71.17 | 96s
+[P4c_l10_s0] ep  4 | train 0.1088 anchor 0.00080 | FFval bal 0.6168 aucV 94.57 | DFDval aucV 72.07 | 104s
+[P4c_l10_s0] ep  5 | train 0.1006 anchor 0.00077 | FFval bal 0.5201 aucV 94.45 | DFDval aucV 71.66 | 97s
+[P4c_l10_s0] ep  6 | train 0.0975 anchor 0.00073 | FFval bal 0.6376 aucV 94.28 | DFDval aucV 71.27 | 92s
+[P4c_l10_s0] ep  7 | train 0.0958 anchor 0.00073 | FFval bal 0.5802 aucV 94.30 | DFDval aucV 71.58 | 94s
+[P4c_l10_s0] ep  8 | train 0.0916 anchor 0.00073 | FFval bal 0.6695 aucV 94.31 | DFDval aucV 71.33 | 110s
+[P4c_l10_s0] ep  9 | train 0.0908 anchor 0.00073 | FFval bal 0.6300 aucV 94.51 | DFDval aucV 70.85 | 94s
+[P4c_l10_s0] ep 10 | train 0.0882 anchor 0.00070 | FFval bal 0.6411 aucV 94.48 | DFDval aucV 71.05 | 94s
+[P4c_l10_s0] ep 11 | train 0.0843 anchor 0.00069 | FFval bal 0.6851 aucV 94.39 | DFDval aucV 70.80 | 112s
+[P4c_l10_s0] ep 12 | train 0.0851 anchor 0.00067 | FFval bal 0.7210 aucV 94.46 | DFDval aucV 70.88 | 111s
+[P4c_l10_s0] ep 13 | train 0.0749 anchor 0.00066 | FFval bal 0.7462 aucV 94.32 | DFDval aucV 70.06 | 73s
+[P4c_l10_s0] ep 14 | train 0.0748 anchor 0.00064 | FFval bal 0.7383 aucV 94.31 | DFDval aucV 70.81 | 76s
+[P4c_l10_s0] ep 15 | train 0.0730 anchor 0.00064 | FFval bal 0.7907 aucV 94.32 | DFDval aucV 70.18 | 77s
+[P4c_l10_s0] ep 16 | train 0.0760 anchor 0.00062 | FFval bal 0.8363 aucV 94.11 | DFDval aucV 70.66 | 79s
+[P4c_l10_s0] ep 17 | train 0.0670 anchor 0.00062 | FFval bal 0.7951 aucV 94.42 | DFDval aucV 70.44 | 80s
+[P4c_l10_s0] ep 18 | train 0.0664 anchor 0.00060 | FFval bal 0.7858 aucV 94.38 | DFDval aucV 70.64 | 76s
+[P4c_l10_s0] ep 19 | train 0.0660 anchor 0.00060 | FFval bal 0.8120 aucV 94.40 | DFDval aucV 70.34 | 85s
+[P4c_l10_s0] ep 20 | train 0.0687 anchor 0.00060 | FFval bal 0.8251 aucV 94.35 | DFDval aucV 70.32 | 85s
+[P4c_l10_s0] 완료 30.7분 | best ep 1: FF++ 95.00 CDF 74.81 | last: FF++ 95.16 CDF 70.43

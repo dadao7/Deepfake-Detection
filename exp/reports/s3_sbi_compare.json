@@ -1,0 +1,26 @@
+{
+ "new_sbi_best": {
+  "val_focal": 0.20547309897162697,
+  "val_ce_detail": 0.37951144666382763,
+  "val_total": 0.5849845456354545,
+  "val_detail_acc": 82.70833333333333,
+  "val_hm_auc": 83.98631198347107,
+  "val_peak_hit_gt": 20.90909034013748,
+  "val_boundary_at_peak": 0.30392998456954956,
+  "val_crop_hit": 100.0,
+  "center_boundary": 0.0,
+  "center_hit_gt": 0.0
+ },
+ "sbi1_1학기": {
+  "val_focal": 0.314297155900435,
+  "val_ce_detail": 1.2093454158667363,
+  "val_total": 1.5236425717671713,
+  "val_detail_acc": 50.15151515151515,
+  "val_hm_auc": 50.18536931818181,
+  "val_peak_hit_gt": 10.568182170391083,
+  "val_boundary_at_peak": 0.358458012342453,
+  "val_crop_hit": 100.0,
+  "center_boundary": 0.0,
+  "center_hit_gt": 0.0
+ }
+}

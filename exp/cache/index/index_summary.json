@@ -1,0 +1,58 @@
+{
+ "train_rows": 36000,
+ "val_rows": 5600,
+ "test_rows": 70000,
+ "cdf_rows": 16420,
+ "cdf_videos": 518,
+ "cdf_real_videos": 178,
+ "cdf_fake_videos": 340,
+ "schedule": {
+  "25": {
+   "pairs": 90,
+   "real_frames": 1800,
+   "fake_per_chunk": 1800,
+   "steps_per_epoch": 225
+  },
+  "50": {
+   "pairs": 180,
+   "real_frames": 3600,
+   "fake_per_chunk": 3600,
+   "steps_per_epoch": 450
+  },
+  "100": {
+   "pairs": 360,
+   "real_frames": 7200,
+   "fake_per_chunk": 7200,
+   "steps_per_epoch": 900
+  }
+ },
+ "train_videos": {
+  "original": 720,
+  "Deepfakes": 720,
+  "FaceSwap": 720,
+  "NeuralTextures": 720,
+  "Face2Face": 720
+ },
+ "val_videos": {
+  "original": 140,
+  "Deepfakes": 140,
+  "FaceSwap": 140,
+  "NeuralTextures": 140,
+  "Face2Face": 140
+ },
+ "test_videos": {
+  "original": 140,
+  "Deepfakes": 140,
+  "FaceSwap": 140,
+  "NeuralTextures": 140,
+  "Face2Face": 140
+ },
+ "train_frames_per_video_n": {
+  "26": 1,
+  "128": 1,
+  "145": 1,
+  "193": 1,
+  "256": 3596
+ },
+ "index_sha": "6f9aab71204d"
+}

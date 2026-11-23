@@ -1,0 +1,23 @@
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+[N1b] seed 0: 18개 5.8분
+[N1b] seed 1: 18개 6.4분
+[N1b] seed 2: 18개 7.1분
+hyb|U0s0.75|ties             86.403
+hyb|U0s0.75|avg              86.382
+hyb|tk0.3|ties               86.303
+hyb|tk0.3|avg                86.149
+hyb|tk0.2|ties               86.123
+hyb|tk0.2|avg                86.029
+hyb|lin0.75|ties             85.928
+hyb|tk0.1|ties               85.879
+hyb|lin0.75|avg              85.817
+hyb|tk0.1|avg                85.803
+hyb|tk0.2l0.75|ties          85.700
+hyb|U0s0.75|P3               85.677
+hyb|tk0.3|P3                 85.664
+hyb|tk0.2l0.75|avg           85.617
+hyb|tk0.2|P3                 85.503
+hyb|tk0.1|P3                 85.337
+hyb|lin0.75|P3               85.335
+hyb|tk0.2l0.75|P3            85.158

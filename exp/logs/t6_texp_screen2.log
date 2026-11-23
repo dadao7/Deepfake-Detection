@@ -1,0 +1,9 @@
+Xema seed 0 선별 0.0분
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+Xlr1 seed 0 선별 14.0분
+Xp3 seed 0 선별 0.1분
+기준(seed 0): TASKS5 선택 병합 85.663, TASKS5 격자 seed 0 최고 85.819
+Xema: 단독 best 83.712 / last 83.686 | 병합 상위: last|lin|t0.7 85.661, last|tv|a0.25b0.75 85.657, last|lin|t0.8 85.607, best|lin|t0.7 85.596
+Xlr1: 단독 best 84.579 / last 79.906 | 병합 상위: last|tv|a0.25b1.00 86.470, last|tv|a0.50b1.00 86.460, best|tv|a0.25b1.00 86.420, best|tv|a0.50b1.00 86.355
+Xp3: 단독 best 84.812 / last 82.997 | 병합 상위: best|tv|a0.75b0.75 86.131, last|tv|a0.75b0.75 86.031, best|tv|a1.00b0.75 85.969, last|tv|a1.00b0.75 85.941

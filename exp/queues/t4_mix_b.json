@@ -1,0 +1,20 @@
+[
+ {
+  "script": "run_train_mix.py",
+  "cfg": "U3",
+  "seed": 1,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_mix.py",
+  "cfg": "U0",
+  "seed": 1,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_mix.py",
+  "cfg": "U0",
+  "seed": 2,
+  "epochs": 20
+ }
+]

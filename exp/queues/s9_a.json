@@ -1,0 +1,44 @@
+[
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U0",
+  "data": "ffpp",
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U3",
+  "data": "ffpp",
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U0",
+  "data": "sbi",
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U3",
+  "data": "sbi",
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U0",
+  "data": "ffpp",
+  "seed": 2,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_unfreeze.py",
+  "cfg": "U3",
+  "data": "ffpp",
+  "seed": 2,
+  "epochs": 20
+ }
+]

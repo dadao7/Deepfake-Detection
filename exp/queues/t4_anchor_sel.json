@@ -1,0 +1,20 @@
+[
+ {
+  "script": "run_train_anchor.py",
+  "lam": 10.0,
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_anchor.py",
+  "lam": 1.0,
+  "seed": 0,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_anchor.py",
+  "lam": 100.0,
+  "seed": 0,
+  "epochs": 20
+ }
+]

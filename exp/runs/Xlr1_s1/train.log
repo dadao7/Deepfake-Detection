@@ -1,0 +1,22 @@
+[Xlr1_s1] SBI 전문가 학습 | baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | ema 0.0 lr 1e-05 | epoch 1→20
+[Xlr1_s1] ep  1 | train 0.5581 | FFval bal 4.2402 aucV 82.14 | SBIval bal 3.9925 auc 63.56 | 91s
+[Xlr1_s1] ep  2 | train 0.5218 | FFval bal 4.4384 aucV 80.09 | SBIval bal 4.3247 auc 66.66 | 86s
+[Xlr1_s1] ep  3 | train 0.5144 | FFval bal 7.7579 aucV 65.67 | SBIval bal 6.8931 auc 57.82 | 86s
+[Xlr1_s1] ep  4 | train 0.5082 | FFval bal 5.9995 aucV 79.61 | SBIval bal 5.8425 auc 63.24 | 86s
+[Xlr1_s1] ep  5 | train 0.4924 | FFval bal 2.2142 aucV 88.97 | SBIval bal 2.3380 auc 74.38 | 88s
+[Xlr1_s1] ep  6 | train 0.5009 | FFval bal 1.3474 aucV 91.74 | SBIval bal 1.6702 auc 76.11 | 87s
+[Xlr1_s1] ep  7 | train 0.4926 | FFval bal 2.1754 aucV 85.18 | SBIval bal 2.1688 auc 72.52 | 85s
+[Xlr1_s1] ep  8 | train 0.4781 | FFval bal 3.1199 aucV 86.51 | SBIval bal 3.1703 auc 70.81 | 85s
+[Xlr1_s1] ep  9 | train 0.4742 | FFval bal 2.6949 aucV 83.54 | SBIval bal 2.7015 auc 69.01 | 86s
+[Xlr1_s1] ep 10 | train 0.4775 | FFval bal 1.9509 aucV 86.21 | SBIval bal 2.1932 auc 70.58 | 88s
+[Xlr1_s1] ep 11 | train 0.4661 | FFval bal 1.4601 aucV 88.07 | SBIval bal 1.6147 auc 75.41 | 97s
+[Xlr1_s1] ep 12 | train 0.4720 | FFval bal 0.8938 aucV 89.42 | SBIval bal 1.1884 auc 75.69 | 101s
+[Xlr1_s1] ep 13 | train 0.4611 | FFval bal 4.3682 aucV 74.43 | SBIval bal 4.1116 auc 62.46 | 57s
+[Xlr1_s1] ep 14 | train 0.4641 | FFval bal 1.0924 aucV 89.37 | SBIval bal 1.3467 auc 75.80 | 57s
+[Xlr1_s1] ep 15 | train 0.4641 | FFval bal 1.5850 aucV 84.17 | SBIval bal 1.5967 auc 74.06 | 56s
+[Xlr1_s1] ep 16 | train 0.4521 | FFval bal 1.2896 aucV 87.70 | SBIval bal 1.5769 auc 73.54 | 74s
+[Xlr1_s1] ep 17 | train 0.4582 | FFval bal 1.5988 aucV 86.97 | SBIval bal 1.8341 auc 72.63 | 103s
+[Xlr1_s1] ep 18 | train 0.4520 | FFval bal 1.2688 aucV 90.77 | SBIval bal 1.5618 auc 76.85 | 103s
+[Xlr1_s1] ep 19 | train 0.4480 | FFval bal 1.0749 aucV 90.08 | SBIval bal 1.2770 auc 78.15 | 88s
+[Xlr1_s1] ep 20 | train 0.4559 | FFval bal 2.9128 aucV 81.81 | SBIval bal 2.9728 auc 67.54 | 95s
+[Xlr1_s1] 완료 28.5분 | best ep 12: FF++ 88.72 CDF 68.99 | last: FF++ 78.29 CDF 64.03

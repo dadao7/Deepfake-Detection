@@ -1,0 +1,3 @@
+[
+ {"script": "run_train_sbi2.py", "tag": "ema", "init": "theta0", "ema": 0.999, "lr": 5e-5, "seed": 0, "epochs": 20}
+]

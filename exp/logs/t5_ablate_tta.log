@@ -1,0 +1,20 @@
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+seed 0 WiSE 대조 5개 5.7분
+seed 1 WiSE 대조 5개 6.8분
+seed 2 WiSE 대조 5개 5.0분
+WiSE 대조 (seed 평균 AUC): b | ffval | dfdval | fftest | cdf | fsh | dfdtest | 선택
+0.5 | 94.01 | 76.15 | 93.67 | 73.13 | 68.18 | 73.86 | 85.08
+0.6 | 94.03 | 76.66 | 93.89 | 73.59 | 69.22 | 74.77 | 85.34
+0.7 | 93.92 | 76.95 | 93.96 | 74.16 | 70.45 | 75.58 | 85.44
+0.8 | 93.54 | 77.22 | 93.88 | 74.76 | 71.75 | 76.37 | 85.38
+0.9 | 92.70 | 77.61 | 93.34 | 74.75 | 73.09 | 77.05 | 85.16
+TTA 평가 [('P0', 0), ('P3', 0), ('P3', 1), ('P3', 2), ('병합', 0), ('병합', 1), ('병합', 2), ('병합TV', 0), ('병합TV', 1), ('병합TV', 2)]
+  ffval
+  fftest
+  cdf
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+  fsh
+  dfdval·dfdtest
+은행 항목 390 15.6분

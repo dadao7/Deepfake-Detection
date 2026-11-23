@@ -1,0 +1,22 @@
+[U3f_s0] baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | 학습 파라미터 17,977,579 | epoch 1→20
+[U3f_s0] ep  1 | train loss 0.1651 acc 97.67 | FFval bal 0.6390 aucV 94.69 bacc 83.58 | SBIval bal 1.3982 auc 71.69 | 131s
+[U3f_s0] ep  2 | train loss 0.1461 acc 98.05 | FFval bal 0.7587 aucV 94.64 bacc 83.02 | SBIval bal 1.5651 auc 71.89 | 118s
+[U3f_s0] ep  3 | train loss 0.1444 acc 98.06 | FFval bal 0.8291 aucV 94.81 bacc 82.22 | SBIval bal 1.5894 auc 71.98 | 114s
+[U3f_s0] ep  4 | train loss 0.1423 acc 97.98 | FFval bal 0.9477 aucV 94.83 bacc 80.79 | SBIval bal 1.6500 auc 71.69 | 113s
+[U3f_s0] ep  5 | train loss 0.1340 acc 98.27 | FFval bal 0.8446 aucV 94.95 bacc 82.15 | SBIval bal 1.6411 auc 71.55 | 104s
+[U3f_s0] ep  6 | train loss 0.1297 acc 98.38 | FFval bal 0.8309 aucV 94.91 bacc 82.61 | SBIval bal 1.6007 auc 72.17 | 101s
+[U3f_s0] ep  7 | train loss 0.1259 acc 98.42 | FFval bal 0.8322 aucV 94.89 bacc 83.85 | SBIval bal 1.7289 auc 72.14 | 105s
+[U3f_s0] ep  8 | train loss 0.1256 acc 98.43 | FFval bal 0.9334 aucV 94.80 bacc 82.67 | SBIval bal 1.7953 auc 72.07 | 101s
+[U3f_s0] ep  9 | train loss 0.1203 acc 98.57 | FFval bal 1.1024 aucV 94.62 bacc 81.62 | SBIval bal 1.9530 auc 71.38 | 101s
+[U3f_s0] ep 10 | train loss 0.1168 acc 98.57 | FFval bal 0.8973 aucV 94.86 bacc 82.11 | SBIval bal 1.6502 auc 72.40 | 103s
+[U3f_s0] ep 11 | train loss 0.1145 acc 98.60 | FFval bal 0.9536 aucV 94.83 bacc 82.50 | SBIval bal 1.8597 auc 71.65 | 101s
+[U3f_s0] ep 12 | train loss 0.1101 acc 98.70 | FFval bal 1.0494 aucV 94.80 bacc 82.23 | SBIval bal 1.9148 auc 71.55 | 101s
+[U3f_s0] ep 13 | train loss 0.1042 acc 98.89 | FFval bal 1.1028 aucV 94.72 bacc 82.29 | SBIval bal 2.0402 auc 71.37 | 102s
+[U3f_s0] ep 14 | train loss 0.1033 acc 98.80 | FFval bal 1.0271 aucV 94.90 bacc 82.11 | SBIval bal 1.8568 auc 72.07 | 100s
+[U3f_s0] ep 15 | train loss 0.1006 acc 98.83 | FFval bal 1.0314 aucV 94.87 bacc 82.27 | SBIval bal 1.8709 auc 71.92 | 100s
+[U3f_s0] ep 16 | train loss 0.0999 acc 98.90 | FFval bal 1.0953 aucV 94.87 bacc 81.82 | SBIval bal 1.9439 auc 71.72 | 101s
+[U3f_s0] ep 17 | train loss 0.0963 acc 98.97 | FFval bal 1.0511 aucV 94.84 bacc 82.38 | SBIval bal 1.9205 auc 71.87 | 102s
+[U3f_s0] ep 18 | train loss 0.0935 acc 98.95 | FFval bal 1.0869 aucV 94.83 bacc 81.99 | SBIval bal 1.9548 auc 71.86 | 99s
+[U3f_s0] ep 19 | train loss 0.0968 acc 98.90 | FFval bal 1.0560 aucV 94.88 bacc 82.21 | SBIval bal 1.9151 auc 71.96 | 99s
+[U3f_s0] ep 20 | train loss 0.0943 acc 99.03 | FFval bal 1.0818 aucV 94.87 bacc 82.21 | SBIval bal 1.9318 auc 71.91 | 100s
+[U3f_s0] 완료 35.3분 | best ep 1: FF++ AUC 94.89 CDF 74.71 | last: FF++ 95.20 CDF 74.25

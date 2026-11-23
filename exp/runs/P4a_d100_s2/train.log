@@ -1,0 +1,22 @@
+[P4a_d100_s2] sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | 학습 파라미터 7,636,724 | epoch 1→20
+[P4a_d100_s2] ep  1 lr 5.00e-05 | train loss 0.1497 acc 96.47 auc 99.35 | val bal 0.5618 raw 0.6049 aucF 89.84 aucV 93.71 bacc 81.92 | 48s
+[P4a_d100_s2] ep  2 lr 4.97e-05 | train loss 0.1050 acc 97.16 auc 99.60 | val bal 0.5831 raw 0.5684 aucF 90.27 aucV 93.53 bacc 81.84 | 44s
+[P4a_d100_s2] ep  3 lr 4.88e-05 | train loss 0.1015 acc 97.16 auc 99.63 | val bal 0.5489 raw 0.4542 aucF 90.65 aucV 93.90 bacc 82.02 | 43s
+[P4a_d100_s2] ep  4 lr 4.73e-05 | train loss 0.0937 acc 97.56 auc 99.66 | val bal 0.7193 raw 0.4296 aucF 91.33 aucV 94.53 bacc 80.49 | 43s
+[P4a_d100_s2] ep  5 lr 4.53e-05 | train loss 0.0908 acc 97.48 auc 99.69 | val bal 0.6974 raw 0.4292 aucF 91.38 aucV 94.57 bacc 80.92 | 38s
+[P4a_d100_s2] ep  6 lr 4.28e-05 | train loss 0.0832 acc 97.73 auc 99.74 | val bal 0.7160 raw 0.4582 aucF 91.43 aucV 94.26 bacc 81.25 | 38s
+[P4a_d100_s2] ep  7 lr 3.99e-05 | train loss 0.0838 acc 97.62 auc 99.75 | val bal 0.7114 raw 0.4798 aucF 91.56 aucV 94.52 bacc 81.62 | 38s
+[P4a_d100_s2] ep  8 lr 3.66e-05 | train loss 0.0827 acc 97.76 auc 99.74 | val bal 0.8423 raw 0.4866 aucF 91.31 aucV 94.38 bacc 80.48 | 38s
+[P4a_d100_s2] ep  9 lr 3.31e-05 | train loss 0.0739 acc 97.96 auc 99.80 | val bal 0.9961 raw 0.5228 aucF 90.97 aucV 94.62 bacc 79.64 | 38s
+[P4a_d100_s2] ep 10 lr 2.93e-05 | train loss 0.0719 acc 98.12 auc 99.79 | val bal 0.9755 raw 0.5529 aucF 90.91 aucV 94.26 bacc 80.01 | 38s
+[P4a_d100_s2] ep 11 lr 2.55e-05 | train loss 0.0685 acc 98.18 auc 99.83 | val bal 0.8806 raw 0.5618 aucF 91.41 aucV 94.66 bacc 81.21 | 38s
+[P4a_d100_s2] ep 12 lr 2.17e-05 | train loss 0.0679 acc 98.34 auc 99.81 | val bal 1.0529 raw 0.5956 aucF 91.04 aucV 94.69 bacc 80.11 | 38s
+[P4a_d100_s2] ep 13 lr 1.79e-05 | train loss 0.0640 acc 98.27 auc 99.85 | val bal 1.0517 raw 0.6462 aucF 90.92 aucV 94.33 bacc 80.84 | 37s
+[P4a_d100_s2] ep 14 lr 1.44e-05 | train loss 0.0575 acc 98.64 auc 99.85 | val bal 1.1698 raw 0.6845 aucF 90.42 aucV 94.21 bacc 79.84 | 37s
+[P4a_d100_s2] ep 15 lr 1.11e-05 | train loss 0.0620 acc 98.48 auc 99.85 | val bal 1.2026 raw 0.7181 aucF 90.35 aucV 94.29 bacc 80.04 | 37s
+[P4a_d100_s2] ep 16 lr 8.18e-06 | train loss 0.0592 acc 98.54 auc 99.86 | val bal 1.3068 raw 0.7251 aucF 90.24 aucV 94.18 bacc 79.63 | 37s
+[P4a_d100_s2] ep 17 lr 5.68e-06 | train loss 0.0542 acc 98.57 auc 99.89 | val bal 1.2470 raw 0.7234 aucF 90.37 aucV 94.15 bacc 80.19 | 37s
+[P4a_d100_s2] ep 18 lr 3.67e-06 | train loss 0.0492 acc 98.83 auc 99.89 | val bal 1.5255 raw 0.7888 aucF 89.65 aucV 94.19 bacc 78.84 | 37s
+[P4a_d100_s2] ep 19 lr 2.20e-06 | train loss 0.0547 acc 98.70 auc 99.87 | val bal 1.3340 raw 0.7586 aucF 90.17 aucV 94.11 bacc 79.90 | 37s
+[P4a_d100_s2] ep 20 lr 1.30e-06 | train loss 0.0488 acc 98.72 auc 99.91 | val bal 1.3996 raw 0.7678 aucF 89.97 aucV 94.22 bacc 79.63 | 37s
+[P4a_d100_s2] 완료 13.0분 | best ep 3: FF++ AUC 93.30 CDF 73.27 | last: FF++ 93.87 CDF 69.57

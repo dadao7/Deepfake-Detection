@@ -1,0 +1,22 @@
+[U3m_s0] 혼합 학습 | baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | epoch 1→20
+[U3m_s0] ep  1 | train 0.4212 | FFval bal 1.7867 aucV 91.24 | SBIval bal 1.5769 auc 71.40 | 67s
+[U3m_s0] ep  2 | train 0.3890 | FFval bal 2.1826 aucV 92.23 | SBIval bal 2.3093 auc 71.86 | 69s
+[U3m_s0] ep  3 | train 0.3903 | FFval bal 1.1681 aucV 93.79 | SBIval bal 1.2485 auc 76.95 | 69s
+[U3m_s0] ep  4 | train 0.3859 | FFval bal 0.5320 aucV 94.88 | SBIval bal 0.6884 auc 78.31 | 68s
+[U3m_s0] ep  5 | train 0.3720 | FFval bal 0.5600 aucV 94.62 | SBIval bal 0.7110 auc 78.77 | 66s
+[U3m_s0] ep  6 | train 0.3631 | FFval bal 0.5455 aucV 94.88 | SBIval bal 0.6150 auc 83.53 | 66s
+[U3m_s0] ep  7 | train 0.3533 | FFval bal 0.5660 aucV 94.96 | SBIval bal 0.6931 auc 79.99 | 65s
+[U3m_s0] ep  8 | train 0.3517 | FFval bal 0.7043 aucV 94.79 | SBIval bal 0.7736 auc 81.44 | 72s
+[U3m_s0] ep  9 | train 0.3411 | FFval bal 0.4954 aucV 94.88 | SBIval bal 0.6147 auc 82.36 | 80s
+[U3m_s0] ep 10 | train 0.3324 | FFval bal 0.5081 aucV 94.66 | SBIval bal 0.6104 auc 83.29 | 91s
+[U3m_s0] ep 11 | train 0.3319 | FFval bal 0.5102 aucV 95.08 | SBIval bal 0.5809 auc 84.06 | 89s
+[U3m_s0] ep 12 | train 0.3323 | FFval bal 0.6770 aucV 95.17 | SBIval bal 0.7212 auc 83.58 | 90s
+[U3m_s0] ep 13 | train 0.3218 | FFval bal 1.6755 aucV 93.44 | SBIval bal 1.6147 auc 82.45 | 90s
+[U3m_s0] ep 14 | train 0.3169 | FFval bal 1.1293 aucV 94.05 | SBIval bal 1.1698 auc 82.22 | 91s
+[U3m_s0] ep 15 | train 0.3172 | FFval bal 1.5286 aucV 93.61 | SBIval bal 1.6222 auc 81.50 | 92s
+[U3m_s0] ep 16 | train 0.3111 | FFval bal 0.8908 aucV 94.76 | SBIval bal 0.9946 auc 82.34 | 91s
+[U3m_s0] ep 17 | train 0.3059 | FFval bal 0.5438 aucV 94.97 | SBIval bal 0.6203 auc 83.10 | 85s
+[U3m_s0] ep 18 | train 0.3026 | FFval bal 0.6466 aucV 95.01 | SBIval bal 0.6975 auc 83.27 | 92s
+[U3m_s0] ep 19 | train 0.3108 | FFval bal 0.9740 aucV 94.63 | SBIval bal 1.0310 auc 82.49 | 91s
+[U3m_s0] ep 20 | train 0.3146 | FFval bal 1.2637 aucV 93.88 | SBIval bal 1.2788 auc 82.57 | 84s
+[U3m_s0] 완료 27.1분 | best ep 11: FF++ 95.43 CDF 75.74 | last: FF++ 94.73 CDF 74.92

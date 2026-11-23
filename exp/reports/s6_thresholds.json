@@ -1,0 +1,27 @@
+{
+ "thresholds": {
+  "Deepfakes": 84,
+  "FaceSwap": 7,
+  "NeuralTextures": 20,
+  "Face2Face": 20
+ },
+ "rule": "val 정렬 마스크 값 1~254 히스토그램(log1p, 5칸 이동평균)의 [4,100] 최소 위치",
+ "area_frac_at_thr": {
+  "val": {
+   "Deepfakes": 0.419166229539661,
+   "FaceSwap": 0.5103369376787926,
+   "NeuralTextures": 0.5432633613829178,
+   "Face2Face": 0.5443293703336121
+  },
+  "test": {
+   "Deepfakes": 0.42364124572306666,
+   "FaceSwap": 0.5095975562111159,
+   "NeuralTextures": 0.5436406726230645,
+   "Face2Face": 0.5476865252890659
+  }
+ },
+ "val_frames": 5520,
+ "val_frames_total": 5596,
+ "test_frames": 5472,
+ "test_frames_total": 5600
+}

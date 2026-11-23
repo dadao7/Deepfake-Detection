@@ -1,0 +1,22 @@
+[Xema_s0] SBI 전문가 학습 | baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | ema 0.999 lr 5e-05 | epoch 1→20
+[Xema_s0] ep  1 | train 0.5534 | FFval bal 0.9087 aucV 92.23 | SBIval bal 1.0852 auc 75.20 | 80s
+[Xema_s0] ep  2 | train 0.5156 | FFval bal 0.6973 aucV 93.02 | SBIval bal 0.9272 auc 77.59 | 129s
+[Xema_s0] ep  3 | train 0.5053 | FFval bal 0.5350 aucV 93.44 | SBIval bal 0.7612 auc 78.52 | 239s
+[Xema_s0] ep  4 | train 0.4914 | FFval bal 0.5250 aucV 92.68 | SBIval bal 0.7102 auc 79.72 | 195s
+[Xema_s0] ep  5 | train 0.4699 | FFval bal 0.4266 aucV 93.35 | SBIval bal 0.5828 auc 81.74 | 243s
+[Xema_s0] ep  6 | train 0.4543 | FFval bal 0.4167 aucV 93.23 | SBIval bal 0.5381 auc 83.65 | 194s
+[Xema_s0] ep  7 | train 0.4376 | FFval bal 0.4310 aucV 92.86 | SBIval bal 0.5154 auc 85.47 | 226s
+[Xema_s0] ep  8 | train 0.4238 | FFval bal 0.5424 aucV 91.94 | SBIval bal 0.5982 auc 85.41 | 147s
+[Xema_s0] ep  9 | train 0.4125 | FFval bal 0.5655 aucV 91.61 | SBIval bal 0.5792 auc 86.22 | 179s
+[Xema_s0] ep 10 | train 0.4057 | FFval bal 0.6653 aucV 90.91 | SBIval bal 0.6309 auc 86.50 | 144s
+[Xema_s0] ep 11 | train 0.3935 | FFval bal 0.5917 aucV 91.20 | SBIval bal 0.5638 auc 87.07 | 179s
+[Xema_s0] ep 12 | train 0.3950 | FFval bal 0.7335 aucV 90.76 | SBIval bal 0.6782 auc 86.84 | 159s
+[Xema_s0] ep 13 | train 0.3816 | FFval bal 0.7806 aucV 90.48 | SBIval bal 0.6938 auc 87.25 | 177s
+[Xema_s0] ep 14 | train 0.3692 | FFval bal 0.6274 aucV 90.30 | SBIval bal 0.5468 auc 87.86 | 144s
+[Xema_s0] ep 15 | train 0.3693 | FFval bal 0.5007 aucV 90.58 | SBIval bal 0.4509 auc 88.25 | 152s
+[Xema_s0] ep 16 | train 0.3573 | FFval bal 0.5045 aucV 90.48 | SBIval bal 0.4506 auc 88.36 | 177s
+[Xema_s0] ep 17 | train 0.3574 | FFval bal 0.4942 aucV 90.66 | SBIval bal 0.4466 auc 88.43 | 163s
+[Xema_s0] ep 18 | train 0.3529 | FFval bal 0.4938 aucV 90.71 | SBIval bal 0.4476 auc 88.40 | 178s
+[Xema_s0] ep 19 | train 0.3533 | FFval bal 0.5112 aucV 90.78 | SBIval bal 0.4704 auc 88.31 | 139s
+[Xema_s0] ep 20 | train 0.3549 | FFval bal 0.5193 aucV 90.70 | SBIval bal 0.4800 auc 88.32 | 157s
+[Xema_s0] 완료 56.9분 | best ep 17: FF++ 91.51 CDF 70.62 | last: FF++ 91.59 CDF 70.68

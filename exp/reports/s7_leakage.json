@@ -1,0 +1,26 @@
+{
+ "original": {
+  "official_test_videos": 140,
+  "in_1st_sem_train": 115
+ },
+ "Deepfakes": {
+  "official_test_videos": 140,
+  "in_1st_sem_train": 115
+ },
+ "FaceSwap": {
+  "official_test_videos": 140,
+  "in_1st_sem_train": 115
+ },
+ "NeuralTextures": {
+  "official_test_videos": 140,
+  "in_1st_sem_train": 115
+ },
+ "Face2Face": {
+  "official_test_videos": 140,
+  "in_1st_sem_train": 115
+ },
+ "identity": {
+  "official_test_ids": 140,
+  "test_ids_seen_in_1st_sem_train(as real or in fake pair)": 126
+ }
+}

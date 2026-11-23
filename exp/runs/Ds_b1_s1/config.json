@@ -1,0 +1,31 @@
+{
+ "run_id": "Ds_b1_s1",
+ "kind": "distill",
+ "setting": "Ds_b1",
+ "train_data": "FF++ 8 + SBI 8 per batch",
+ "teachers": "P3_d100_s1 last ×0.3 + U3s_s1 best ×0.7 (logit)",
+ "loss": "CE + 0.15·CE(detail) + 1.0·T²·KL(T=2.0)",
+ "selection": "(FF++ val bal CE + SBI val bal CE)/2",
+ "seed": 1,
+ "epochs": 20,
+ "init": "scratch",
+ "init_msg": "baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>)",
+ "lr": 5e-05,
+ "wd": 0.001,
+ "code_sha": "5505243cb758",
+ "cfg_sha": "418644fa8f76",
+ "started": "2026-10-17 13:42:57",
+ "versions": {
+  "python": "3.11.15",
+  "torch": "2.12.0+cu130",
+  "torchvision": "0.27.0+cu130",
+  "transformers": "5.9.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.8.0",
+  "h5py": "3.16.0",
+  "cuda": "13.0",
+  "cudnn": 92000,
+  "gpu": "NVIDIA GeForce RTX 5080"
+ },
+ "n_trainable": 17977579
+}

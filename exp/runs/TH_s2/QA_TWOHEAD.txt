@@ -1,0 +1,1 @@
+code/qa_twohead.py의 TwoHead 모델(config.json의 setting P3는 학습 설정만 같다는 뜻)

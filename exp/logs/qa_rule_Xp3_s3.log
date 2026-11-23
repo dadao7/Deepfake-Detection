@@ -1,0 +1,21 @@
+[Xp3_s3] SBI 전문가 학습 | baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | P3_d100_s3 last 분기에서 시작(<All keys matched successfully>) | ema 0.0 lr 5e-05 | epoch 1→20
+[Xp3_s3] ep  1 | train 0.6180 | FFval bal 0.4284 aucV 94.69 | SBIval bal 0.5538 auc 79.74 | 61s
+[Xp3_s3] ep  2 | train 0.5530 | FFval bal 0.4025 aucV 94.30 | SBIval bal 0.5128 auc 82.24 | 57s
+[Xp3_s3] ep  3 | train 0.5110 | FFval bal 0.5081 aucV 93.23 | SBIval bal 0.5583 auc 85.27 | 57s
+[Xp3_s3] ep  4 | train 0.4932 | FFval bal 0.3989 aucV 93.36 | SBIval bal 0.4595 auc 85.93 | 57s
+[Xp3_s3] ep  5 | train 0.4674 | FFval bal 0.4330 aucV 92.04 | SBIval bal 0.4190 auc 88.78 | 56s
+[Xp3_s3] ep  6 | train 0.4485 | FFval bal 0.4831 aucV 92.28 | SBIval bal 0.4433 auc 89.28 | 55s
+[Xp3_s3] ep  7 | train 0.4403 | FFval bal 0.4414 aucV 91.84 | SBIval bal 0.4200 auc 88.73 | 55s
+[Xp3_s3] ep  8 | train 0.4164 | FFval bal 0.5137 aucV 90.86 | SBIval bal 0.4330 auc 90.15 | 53s
+[Xp3_s3] ep  9 | train 0.4034 | FFval bal 0.5350 aucV 90.67 | SBIval bal 0.4185 auc 90.44 | 45s
+[Xp3_s3] ep 10 | train 0.3924 | FFval bal 0.5484 aucV 89.43 | SBIval bal 0.3971 auc 90.86 | 46s
+[Xp3_s3] ep 11 | train 0.3870 | FFval bal 0.5281 aucV 90.35 | SBIval bal 0.4159 auc 90.45 | 45s
+[Xp3_s3] ep 12 | train 0.3918 | FFval bal 0.5143 aucV 90.34 | SBIval bal 0.3951 auc 90.79 | 42s
+[Xp3_s3] ep 13 | train 0.3739 | FFval bal 0.6013 aucV 89.93 | SBIval bal 0.4852 auc 90.56 | 41s
+[Xp3_s3] ep 14 | train 0.3714 | FFval bal 0.7852 aucV 89.37 | SBIval bal 0.6315 auc 89.11 | 41s
+[Xp3_s3] ep 15 | train 0.3660 | FFval bal 0.6218 aucV 88.83 | SBIval bal 0.4758 auc 90.11 | 41s
+[Xp3_s3] ep 16 | train 0.3471 | FFval bal 0.5791 aucV 89.07 | SBIval bal 0.4362 auc 90.27 | 41s
+[Xp3_s3] ep 17 | train 0.3516 | FFval bal 0.5926 aucV 89.14 | SBIval bal 0.4305 auc 91.50 | 40s
+[Xp3_s3] ep 18 | train 0.3512 | FFval bal 0.6666 aucV 88.46 | SBIval bal 0.5202 auc 89.68 | 40s
+[Xp3_s3] ep 19 | train 0.3500 | FFval bal 0.5753 aucV 89.26 | SBIval bal 0.4057 auc 91.45 | 41s
+[Xp3_s3] ep 20 | train 0.3502 | FFval bal 0.6053 aucV 88.61 | SBIval bal 0.4519 auc 90.24 | 40s

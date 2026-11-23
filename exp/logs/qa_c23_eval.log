@@ -1,0 +1,5 @@
+C:\m2f2\exp\code\qa_c23.py:53: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  t = lambda a: torch.from_numpy(np.ascontiguousarray(a[r[0]:r[-1] + 1])).cuda()  # noqa: E731
+[c23] 평가 영상 700
+[c40] 평가 영상 700
+C23_EVAL_OK

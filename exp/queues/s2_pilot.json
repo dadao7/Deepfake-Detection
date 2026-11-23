@@ -1,0 +1,4 @@
+[
+ {"setting": "P3", "data": 100, "seed": 0, "epochs": 20, "kind": "pilot", "mode": "cache", "init": "sbi1", "run_id": "pilot_P3_cache_s0"},
+ {"setting": "P3", "data": 100, "seed": 0, "epochs": 20, "kind": "pilot", "mode": "orig",  "init": "sbi1", "run_id": "pilot_P3_orig_s0"}
+]

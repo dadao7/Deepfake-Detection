@@ -1,0 +1,23 @@
+{
+ "test_order_equals_p0": true,
+ "bridge_adapter_proj_out_std_over_batch": 0.0,
+ "same_model_twice_fp32_maxdiff": 0.0,
+ "same_model_twice_fp16_maxdiff": 0.0,
+ "same_model_twice_fp16_b3_equal": true,
+ "rebuild_other_seed_fp32_logit_maxdiff": 0.0,
+ "rebuild_other_seed_fp16_logit_maxdiff": 0.0,
+ "rebuild_other_seed_fp16_b3_equal": true,
+ "fp16_vs_fp32_prob_maxdiff": 0.0117378830909729,
+ "fp32_vs_p0_prob_maxdiff": 0.00024586915969848633,
+ "fp16_vs_p0_prob_maxdiff": 0.011492013931274414,
+ "b3_shape": [
+  32,
+  272,
+  11,
+  11
+ ],
+ "b3_dtype": "torch.float16",
+ "sec_per_frame_bs32": 0.009227782487869263,
+ "sec_per_frame_bs64": 0.013097535818815231,
+ "gpu_mem_peak_GB": 8.731072512
+}

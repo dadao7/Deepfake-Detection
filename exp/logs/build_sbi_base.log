@@ -1,0 +1,24 @@
+Freezing CLIP vision encoder.
+[baseline] vision_tower missing 0 unexpected 0 / 저자 가중치 missing 590 unexpected 0
+[base val] 880/880 0.6분, 남은 약 0.0분
+[base train] 2816/56308 1.9분, 남은 약 36.7분
+[base train] 5632/56308 4.0분, 남은 약 35.6분
+[base train] 8448/56308 5.8분, 남은 약 32.6분
+[base train] 11264/56308 7.8분, 남은 약 31.3분
+[base train] 14080/56308 9.8분, 남은 약 29.4분
+[base train] 16896/56308 12.2분, 남은 약 28.5분
+[base train] 19712/56308 13.8분, 남은 약 25.7분
+[base train] 22528/56308 15.4분, 남은 약 23.0분
+[base train] 25344/56308 16.9분, 남은 약 20.7분
+[base train] 28160/56308 18.4분, 남은 약 18.4분
+[base train] 30976/56308 20.0분, 남은 약 16.3분
+[base train] 33792/56308 21.5분, 남은 약 14.3분
+[base train] 36608/56308 23.1분, 남은 약 12.4분
+[base train] 39424/56308 24.6분, 남은 약 10.5분
+[base train] 42240/56308 26.2분, 남은 약 8.7분
+[base train] 45056/56308 27.7분, 남은 약 6.9분
+[base train] 47872/56308 29.3분, 남은 약 5.2분
+[base train] 50688/56308 30.8분, 남은 약 3.4분
+[base train] 53504/56308 32.3분, 남은 약 1.7분
+[base train] 56308/56308 33.9분, 남은 약 0.0분
+SBI 캐시 base 끝

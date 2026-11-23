@@ -1,0 +1,1 @@
+[{"script": "run_train_sbi2.py", "tag": "p3", "init": "p3last", "ema": 0.0, "lr": 5e-5, "seed": 2, "epochs": 20}]

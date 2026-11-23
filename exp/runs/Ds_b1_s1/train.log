@@ -1,0 +1,22 @@
+[Ds_b1_s1] 증류 학습 | baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | epoch 1→20
+[Ds_b1_s1] ep  1 | train 0.5602 (kd 0.1350) | FFval bal 0.4833 aucV 95.03 | SBIval bal 0.6438 auc 78.94 | 211s
+[Ds_b1_s1] ep  2 | train 0.4633 (kd 0.0764) | FFval bal 0.4018 aucV 94.61 | SBIval bal 0.5920 auc 80.40 | 142s
+[Ds_b1_s1] ep  3 | train 0.4359 (kd 0.0550) | FFval bal 0.3983 aucV 94.30 | SBIval bal 0.5813 auc 81.65 | 152s
+[Ds_b1_s1] ep  4 | train 0.4260 (kd 0.0420) | FFval bal 0.4723 aucV 94.54 | SBIval bal 0.5985 auc 82.57 | 150s
+[Ds_b1_s1] ep  5 | train 0.4025 (kd 0.0354) | FFval bal 0.3811 aucV 94.73 | SBIval bal 0.5352 auc 84.18 | 150s
+[Ds_b1_s1] ep  6 | train 0.3923 (kd 0.0320) | FFval bal 0.4047 aucV 94.79 | SBIval bal 0.5247 auc 84.56 | 148s
+[Ds_b1_s1] ep  7 | train 0.3858 (kd 0.0289) | FFval bal 0.3742 aucV 94.80 | SBIval bal 0.5100 auc 85.24 | 130s
+[Ds_b1_s1] ep  8 | train 0.3782 (kd 0.0289) | FFval bal 0.3768 aucV 94.67 | SBIval bal 0.5184 auc 85.01 | 149s
+[Ds_b1_s1] ep  9 | train 0.3638 (kd 0.0284) | FFval bal 0.4216 aucV 94.80 | SBIval bal 0.5086 auc 86.01 | 147s
+[Ds_b1_s1] ep 10 | train 0.3641 (kd 0.0267) | FFval bal 0.3840 aucV 94.81 | SBIval bal 0.5053 auc 85.17 | 149s
+[Ds_b1_s1] ep 11 | train 0.3610 (kd 0.0269) | FFval bal 0.3814 aucV 94.76 | SBIval bal 0.4996 auc 85.79 | 138s
+[Ds_b1_s1] ep 12 | train 0.3716 (kd 0.0267) | FFval bal 0.3918 aucV 94.73 | SBIval bal 0.4886 auc 86.20 | 140s
+[Ds_b1_s1] ep 13 | train 0.3534 (kd 0.0270) | FFval bal 0.3892 aucV 94.74 | SBIval bal 0.5018 auc 85.60 | 148s
+[Ds_b1_s1] ep 14 | train 0.3537 (kd 0.0267) | FFval bal 0.3905 aucV 94.76 | SBIval bal 0.4881 auc 86.14 | 148s
+[Ds_b1_s1] ep 15 | train 0.3584 (kd 0.0266) | FFval bal 0.3914 aucV 94.72 | SBIval bal 0.4753 auc 86.83 | 148s
+[Ds_b1_s1] ep 16 | train 0.3436 (kd 0.0272) | FFval bal 0.3943 aucV 94.70 | SBIval bal 0.4865 auc 86.31 | 113s
+[Ds_b1_s1] ep 17 | train 0.3462 (kd 0.0255) | FFval bal 0.3862 aucV 94.70 | SBIval bal 0.4869 auc 86.26 | 68s
+[Ds_b1_s1] ep 18 | train 0.3472 (kd 0.0268) | FFval bal 0.3885 aucV 94.70 | SBIval bal 0.4785 auc 86.66 | 117s
+[Ds_b1_s1] ep 19 | train 0.3544 (kd 0.0269) | FFval bal 0.3984 aucV 94.71 | SBIval bal 0.4749 auc 86.96 | 130s
+[Ds_b1_s1] ep 20 | train 0.3550 (kd 0.0260) | FFval bal 0.3825 aucV 94.75 | SBIval bal 0.4908 auc 85.96 | 201s
+[Ds_b1_s1] 완료 48.2분 | best ep 15: FF++ 95.41 CDF 78.04 | last: FF++ 95.37 CDF 79.50

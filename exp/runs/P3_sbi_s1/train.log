@@ -1,0 +1,22 @@
+[P3_sbi_s1] SBI 학습 | sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | epoch 1→20
+[P3_sbi_s1] ep  1 | train loss 0.5693 acc 76.22 | SBIval bal 1.6455 auc 68.01 | FFval bal 1.3110 aucV 90.62 bacc 53.31 | 54s
+[P3_sbi_s1] ep  2 | train loss 0.5544 acc 77.06 | SBIval bal 0.6383 auc 73.44 | FFval bal 0.3912 aucV 94.24 bacc 82.91 | 53s
+[P3_sbi_s1] ep  3 | train loss 0.5496 acc 77.20 | SBIval bal 1.3383 auc 68.82 | FFval bal 0.9855 aucV 91.38 bacc 59.77 | 54s
+[P3_sbi_s1] ep  4 | train loss 0.5447 acc 77.02 | SBIval bal 1.7141 auc 69.30 | FFval bal 1.2950 aucV 91.60 bacc 54.53 | 54s
+[P3_sbi_s1] ep  5 | train loss 0.5233 acc 78.58 | SBIval bal 1.4156 auc 71.02 | FFval bal 1.1283 aucV 90.34 bacc 57.95 | 55s
+[P3_sbi_s1] ep  6 | train loss 0.5287 acc 78.33 | SBIval bal 0.7771 auc 78.37 | FFval bal 0.4972 aucV 93.38 bacc 77.10 | 57s
+[P3_sbi_s1] ep  7 | train loss 0.5195 acc 78.43 | SBIval bal 0.7179 auc 78.32 | FFval bal 0.4470 aucV 94.31 bacc 79.38 | 55s
+[P3_sbi_s1] ep  8 | train loss 0.5000 acc 79.50 | SBIval bal 1.0521 auc 74.17 | FFval bal 0.6649 aucV 93.46 bacc 68.00 | 56s
+[P3_sbi_s1] ep  9 | train loss 0.4999 acc 79.78 | SBIval bal 0.6688 auc 76.64 | FFval bal 0.3931 aucV 94.80 bacc 82.85 | 56s
+[P3_sbi_s1] ep 10 | train loss 0.4967 acc 80.32 | SBIval bal 0.6646 auc 73.88 | FFval bal 0.3940 aucV 94.22 bacc 82.89 | 56s
+[P3_sbi_s1] ep 11 | train loss 0.4875 acc 80.40 | SBIval bal 0.5512 auc 80.40 | FFval bal 0.4497 aucV 94.43 bacc 79.38 | 56s
+[P3_sbi_s1] ep 12 | train loss 0.4863 acc 80.50 | SBIval bal 0.5243 auc 82.07 | FFval bal 0.3935 aucV 94.36 bacc 82.88 | 58s
+[P3_sbi_s1] ep 13 | train loss 0.4674 acc 81.47 | SBIval bal 0.6294 auc 78.64 | FFval bal 0.4188 aucV 94.02 bacc 81.08 | 54s
+[P3_sbi_s1] ep 14 | train loss 0.4689 acc 81.19 | SBIval bal 0.5487 auc 81.12 | FFval bal 0.4096 aucV 93.77 bacc 81.33 | 52s
+[P3_sbi_s1] ep 15 | train loss 0.4622 acc 81.46 | SBIval bal 0.5568 auc 82.46 | FFval bal 0.4628 aucV 92.50 bacc 78.49 | 51s
+[P3_sbi_s1] ep 16 | train loss 0.4472 acc 82.31 | SBIval bal 0.5867 auc 77.96 | FFval bal 0.4331 aucV 93.03 bacc 80.93 | 57s
+[P3_sbi_s1] ep 17 | train loss 0.4496 acc 82.10 | SBIval bal 0.6621 auc 78.86 | FFval bal 0.4639 aucV 93.00 bacc 78.36 | 51s
+[P3_sbi_s1] ep 18 | train loss 0.4432 acc 82.68 | SBIval bal 0.5340 auc 82.56 | FFval bal 0.4353 aucV 93.09 bacc 80.54 | 54s
+[P3_sbi_s1] ep 19 | train loss 0.4401 acc 82.41 | SBIval bal 0.5477 auc 82.79 | FFval bal 0.5027 aucV 93.14 bacc 76.96 | 53s
+[P3_sbi_s1] ep 20 | train loss 0.4417 acc 82.66 | SBIval bal 0.7158 auc 77.77 | FFval bal 0.4972 aucV 92.46 bacc 76.42 | 59s
+[P3_sbi_s1] 완료 18.3분 | best ep 12: FF++ AUC 93.22 CDF 69.76 | last: FF++ 90.34 CDF 66.48

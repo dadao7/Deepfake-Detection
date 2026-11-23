@@ -1,0 +1,26 @@
+[
+ {
+  "script": "run_train_sbi.py",
+  "setting": "P3",
+  "seed": 1,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_sbi.py",
+  "setting": "P2",
+  "seed": 1,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_sbi.py",
+  "setting": "P4a",
+  "seed": 1,
+  "epochs": 20
+ },
+ {
+  "script": "run_train_sbi.py",
+  "setting": "P4a",
+  "seed": 2,
+  "epochs": 20
+ }
+]

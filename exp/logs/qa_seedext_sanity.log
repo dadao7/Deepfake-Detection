@@ -1,0 +1,5 @@
+  fftest
+  cdf
+sanity fftest: 최대 차이 0.00e+00
+sanity cdf: 최대 차이 0.00e+00
+SANITY_OK

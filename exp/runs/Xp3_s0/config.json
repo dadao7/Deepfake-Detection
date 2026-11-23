@@ -1,0 +1,32 @@
+{
+ "run_id": "Xp3_s0",
+ "kind": "sbi2",
+ "setting": "Xp3",
+ "train_data": "sbi",
+ "init": "p3last",
+ "ema": 0.0,
+ "lr": 5e-05,
+ "wd": 0.001,
+ "epochs": 20,
+ "seed": 0,
+ "init_msg": "baseline 상단 10.34M 로드 | P3 분기 sbi: heatmap_head(<All keys matched successfully>), detail_branch(<All keys matched successfully>) | P3_d100_s0 last 분기에서 시작(<All keys matched successfully>)",
+ "selection": "SBI val val_loss_bal",
+ "code_sha": "98eb378ad61a",
+ "cfg_sha": "88a4f2ad6556",
+ "index_sha": "1f0bca901589",
+ "cache_sha": "6fd7da8a23ec",
+ "versions": {
+  "python": "3.11.15",
+  "torch": "2.12.0+cu130",
+  "torchvision": "0.27.0+cu130",
+  "transformers": "5.9.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.8.0",
+  "h5py": "3.16.0",
+  "cuda": "13.0",
+  "cudnn": 92000,
+  "gpu": "NVIDIA GeForce RTX 5080"
+ },
+ "started": "2026-10-17 16:20:03",
+ "n_trainable": 17977579
+}

@@ -1,0 +1,15 @@
+  ffval
+  fftest
+  cdf
+C:\m2f2\exp\code\eval_newdata.py:34: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  x = torch.from_numpy(np.ascontiguousarray(self.img[s:e])).cuda().permute(0, 3, 1, 2).float().div_(255.)
+  fsh
+  dfdval·dfdtest
+seed 3 평가 저장 (18키)
+  ffval
+  fftest
+  cdf
+  fsh
+  dfdval·dfdtest
+seed 4 평가 저장 (36키)
+EVAL_OK

@@ -1,0 +1,149 @@
+{
+ "created": "2026-10-15 03:09:08",
+ "index_sha": "6f9aab71204d",
+ "versions": {
+  "python": "3.11.15",
+  "torch": "2.12.0+cu130",
+  "torchvision": "0.27.0+cu130",
+  "transformers": "5.9.0",
+  "numpy": "2.4.6",
+  "sklearn": "1.8.0",
+  "h5py": "3.16.0",
+  "cuda": "13.0",
+  "cudnn": 92000,
+  "gpu": "NVIDIA GeForce RTX 5080"
+ },
+ "baseline": "current_model_180.pth + vision_tower.pth, eval, autocast fp16, BS=32",
+ "arrays": {
+  "base\\test_b3.npy": {
+   "shape": [
+    70000,
+    272,
+    11,
+    11
+   ],
+   "dtype": "float16",
+   "sample_sha": "d8c91da13ebc9839"
+  },
+  "base\\test_logit.npy": {
+   "shape": [
+    70000,
+    2
+   ],
+   "dtype": "float32",
+   "sample_sha": "88359df5fd61d7f5"
+  },
+  "frames\\test_img.npy": {
+   "shape": [
+    70000,
+    224,
+    224,
+    3
+   ],
+   "dtype": "uint8",
+   "sample_sha": "8be15788194129ab"
+  },
+  "base\\val_b3.npy": {
+   "shape": [
+    5600,
+    272,
+    11,
+    11
+   ],
+   "dtype": "float16",
+   "sample_sha": "1fa41dc8bca86b7f"
+  },
+  "base\\val_logit.npy": {
+   "shape": [
+    5600,
+    2
+   ],
+   "dtype": "float32",
+   "sample_sha": "1494495943da7554"
+  },
+  "frames\\val_img.npy": {
+   "shape": [
+    5600,
+    224,
+    224,
+    3
+   ],
+   "dtype": "uint8",
+   "sample_sha": "f5facb17b3c59c6f"
+  },
+  "base\\cdf_b3.npy": {
+   "shape": [
+    16420,
+    272,
+    11,
+    11
+   ],
+   "dtype": "float16",
+   "sample_sha": "c6b27237415c1006"
+  },
+  "base\\cdf_logit.npy": {
+   "shape": [
+    16420,
+    2
+   ],
+   "dtype": "float32",
+   "sample_sha": "28511d3d5a91da12"
+  },
+  "frames\\cdf_img.npy": {
+   "shape": [
+    16420,
+    224,
+    224,
+    3
+   ],
+   "dtype": "uint8",
+   "sample_sha": "36ebcc08c0e3da3a"
+  },
+  "base\\train_b3.npy": {
+   "shape": [
+    36000,
+    272,
+    11,
+    11
+   ],
+   "dtype": "float16",
+   "sample_sha": "304daf06722361d9"
+  },
+  "base\\train_logit.npy": {
+   "shape": [
+    36000,
+    2
+   ],
+   "dtype": "float32",
+   "sample_sha": "f12f7d766c91da74"
+  },
+  "frames\\train_img.npy": {
+   "shape": [
+    36000,
+    224,
+    224,
+    3
+   ],
+   "dtype": "uint8",
+   "sample_sha": "cb692f6a4233611a"
+  },
+  "base\\train_flip_b3.npy": {
+   "shape": [
+    36000,
+    272,
+    11,
+    11
+   ],
+   "dtype": "float16",
+   "sample_sha": "e9adf34cdfeb8053"
+  },
+  "base\\train_flip_logit.npy": {
+   "shape": [
+    36000,
+    2
+   ],
+   "dtype": "float32",
+   "sample_sha": "420368bec9169749"
+  }
+ }
+}

@@ -16,3 +16,6 @@ summary_results.txt
 *.bat
 .vscode/
 .DS_Store
+# 2학기 추가: 앱 서버 로그, dlib 랜드마크 모델(라이선스상 별도 다운로드)
+code/server.log
+exp/cache/models/shape_predictor_68_face_landmarks.dat

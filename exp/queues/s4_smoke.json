@@ -1,0 +1,9 @@
+[
+ {
+  "setting": "P1",
+  "data": 100,
+  "seed": 0,
+  "epochs": 20,
+  "kind": "main"
+ }
+]
