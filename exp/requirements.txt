@@ -1,0 +1,24 @@
+# 2학기 실험(exp/) 환경
+# 원래 PC(Windows 11, RTX 5080, Python 3.11.15)의 기록(exp/HANDOFF.md §2)을 기준으로 만들었습니다.
+# 버전이 적힌 패키지는 기록된 버전입니다. 버전이 없는 패키지는 버전 기록이 없는 것입니다.
+# 실제 환경에서 뽑은 전체 목록(pip freeze)은 아닙니다.
+#
+# PyTorch는 CUDA 버전에 맞는 휠을 받으세요(원래 환경: 2.12.0+cu130). https://pytorch.org/get-started/locally/
+
+torch==2.12.0
+torchvision            # torch 2.12.0과 짝이 맞는 버전
+transformers==5.9.0    # 5.x에서 가중치 키 이름이 바뀜. exp/code/common.py의 remap()이 이 버전 기준
+numpy==2.4.6
+h5py==3.16.*
+scikit-learn==1.8.*
+opencv-python==4.13.*
+dlib                   # 얼굴 정렬(DFD·FaceShifter 평가)
+timm
+scipy
+pandas
+matplotlib
+tqdm
+pyyaml
+einops                 # 저자 코드(M2F2_Det)
+pillow
+imageio-ffmpeg         # 질문 대비 실험(qa_*.py)의 영상 재압축에만 사용

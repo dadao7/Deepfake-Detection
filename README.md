@@ -110,7 +110,13 @@ conda env create -f M2F2_Det/environment.yml
 conda activate [가상환경이름]
 ```
 
-2학기 실험(`exp/`) 환경: Python 3.11, PyTorch 2.12(CUDA), transformers 5.9, h5py, numpy, scikit-learn, opencv, dlib, timm, scipy, pandas, matplotlib, tqdm, pyyaml.
+2학기 실험(`exp/`) 환경: Python 3.11, PyTorch 2.12(CUDA), transformers 5.9 외.
+
+```bash
+pip install -r exp/requirements.txt   # PyTorch는 CUDA 버전에 맞는 휠을 먼저 설치
+```
+
+`exp/requirements.txt`는 진행 기록에 남은 버전을 기준으로 만든 목록이며, 실제 환경에서 뽑은 전체 목록은 아닙니다. 버전이 없는 패키지는 기록이 없는 것입니다.
 
 - 코드가 `C:\m2f2\...` 절대 경로를 씁니다. 다른 위치에서 실행하려면 `exp/code/common.py`의 `EXP`, `M2F2`, `ORIG_CODE`, `WEIGHTS`, `DATA`, `PY`를 고치세요.
 - 앱 API 서버: `cd code && python server.py` (기본 가중치는 1학기 모델 `weights/improved_finetune_full_last_100ep_best.pth`).
